@@ -1,9 +1,16 @@
 {
-   "key":"jayjay1",
-   "chain-id":"STRIDE-TESTNET-2",
-   "rpc-addr":"http://162.55.173.64:26657",
-   "account-prefix":"cosmos",
-   "gas-adjustment":1.5,
-   "gas-prices":"0.025ustrd",
-   "trusting-period":"336h"
+   "type": "cosmos",
+   "value": {
+     "key": "jayjay1",
+     "chain-id": "STRIDE-TESTNET-2",
+     "rpc-addr": "http://162.55.173.64:26657",
+     "account-prefix": "stride",
+     "keyring-backend": "test",
+     "gas-adjustment": "1.2",
+     "gas-prices": "0.01ustrd",
+     "debug": "false",
+     "timeout": "20s",
+     "output-format": "json",
+     "sign-mode": "direct"
+ }
 }
