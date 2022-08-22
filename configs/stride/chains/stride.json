@@ -2,7 +2,7 @@
    "type": "cosmos",
    "value": {
      "key": "jayjay1",
-     "chain-id": "STRIDE-TESTNET-2",
+     "chain-id": "STRIDE-TESTNET-4",
      "rpc-addr": "http://162.55.173.64:26657",
      "account-prefix": "stride",
      "keyring-backend": "test",
